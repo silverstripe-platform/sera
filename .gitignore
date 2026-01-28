@@ -2,6 +2,7 @@
 .cover
 .dump.rdb
 .coverage.out
+.build/
 
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
