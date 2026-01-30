@@ -159,3 +159,29 @@ returned a non zero exit code.
     sera 5 task.sh | wc 
     
 will pipe the stdout of `task.sh` to `wc`
+
+## Compiling the binary files
+Create binaries for both linux and mac, and package each one in a compressed file:
+```
+make all
+```
+
+Create binaries for each OS:
+```
+make linux
+
+make darwin
+```
+
+Clean up the build directory containing binary files:
+```
+make clean
+```
+
+Packaging up each binary file in the build directory into a tar gz file:
+```
+make compress
+```
+
+
+
